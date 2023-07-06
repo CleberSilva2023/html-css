@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
+body#index {
+    text-align: center; 
+    background-color: gray;
+}
+body#verde {text-align: center;}
+
+h1 {
+    font-size: 50px; color: white;
+    font-family: 'Aoboshi One', serif;
+}
+
+p {
+    font-size: 25px; 
+    color: white;
+    font-family: 'Dancing Script', 'cursive';
+}
+
+ul {
+    font-size: 25px; 
+    color: white;
+    text-align: justify;
+}
+
+a {color: white; text-decoration: none;}
+a:hover {text-decoration: underline;}

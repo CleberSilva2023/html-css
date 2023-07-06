@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif; 
+        /*Medidas Absolutas: cm, mn, in, px, pt, pc 
+        
+        Medidas Relativas: em, ex, rem, vw, vh, %
+        16px geralmente = 1 em
+        */
+        font-size: 20px;
+        /*A fonte tem que ter essas opções para mudar: weight, font-style e text-decoration*/
+        /*weight = peso; width = largura; height = altura;*/
+    }
+
+    h1 {
+        /*shorthand font
+        - font-style -> font-weight -> font-size -> font-family */
+        /* font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        font-size: 2em;
+        font-style: oblique; */
+        font: oblique lighter 4em 'Courier New'
+    }
+
+    h2 { font: italic 3em 'arial'} /*Sempre seguir a ordem = shorthand font
+        - font-style -> font-weight -> font-size -> font-family*/
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo molestias quam necessitatibus tenetur provident, sed soluta cupiditate, impedit in eveniet ad doloribus eius maiores perferendis quae. Illum sapiente reiciendis repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam distinctio debitis iure minima reiciendis, consequatur nostrum officiis reprehenderit aut iste fugiat autem, praesentium unde natus laudantium molestiae, nam itaque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis optio nemo recusandae praesentium quia sapiente quasi perferendis vero eum, magnam est voluptates minima culpa voluptatum qui aliquam quo dicta laudantium.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat reiciendis pariatur quisquam in fugit sunt explicabo, cupiditate sequi, nesciunt deleniti, ut veniam deserunt magnam quis quidem voluptas optio ipsum ipsa!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium expedita nemo tenetur nulla asperiores nihil qui. Inventore ducimus velit quisquam aspernatur impedit exercitationem fuga, sed ipsa ipsam ipsum doloremque perferendis.</p>
+</body>
+</html>
