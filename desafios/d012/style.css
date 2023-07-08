@@ -84,16 +84,18 @@ div.girasol {
 }
 
 footer {
+    padding: 15px;
+    padding-bottom: 10px;
     width: auto;
     height: 50px;
     background-color: black;
 }
 
 footer > p {
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: var(--font-01);
 }
 
