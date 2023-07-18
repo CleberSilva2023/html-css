@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagens</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+         /* background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
-
+            background-attachment: fixed; */
+            /*Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat  fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 5px solid blue;
@@ -27,6 +32,8 @@
 <body>
     <main>
         <h1>Testando Imagens de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, asperiores laboriosam? Obcaecati debitis unde ab voluptate modi quae quam accusamus adipisci, esse, amet eum repellendus, nobis tenetur eligendi consectetur nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error perspiciatis sed facere labore voluptatem aliquam aspernatur dolorum iure repudiandae? Rerum, illo inventore. Veniam, ut! Labore consequuntur aliquam perspiciatis autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi, adipisci quas asperiores consequuntur praesentium consequatur recusandae autem fugiat assumenda eveniet dolorum corrupti. Quaerat eos reiciendis sapiente, sequi laboriosam earum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore delectus quos temporibus alias sapiente fugit sequi molestiae nesciunt! Unde facilis reiciendis excepturi neque est, omnis ex repudiandae quo possimus. Quia.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, asperiores laboriosam? Obcaecati debitis unde ab voluptate modi quae quam accusamus adipisci, esse, amet eum repellendus, nobis tenetur eligendi consectetur nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error perspiciatis sed facere labore voluptatem aliquam aspernatur dolorum iure repudiandae? Rerum, illo inventore. Veniam, ut! Labore consequuntur aliquam perspiciatis autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi, adipisci quas asperiores consequuntur praesentium consequatur recusandae autem fugiat assumenda eveniet dolorum corrupti. Quaerat eos reiciendis sapiente, sequi laboriosam earum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore delectus quos temporibus alias sapiente fugit sequi molestiae nesciunt! Unde facilis reiciendis excepturi neque est, omnis ex repudiandae quo possimus. Quia.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, asperiores laboriosam? Obcaecati debitis unde ab voluptate modi quae quam accusamus adipisci, esse, amet eum repellendus, nobis tenetur eligendi consectetur nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error perspiciatis sed facere labore voluptatem aliquam aspernatur dolorum iure repudiandae? Rerum, illo inventore. Veniam, ut! Labore consequuntur aliquam perspiciatis autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi, adipisci quas asperiores consequuntur praesentium consequatur recusandae autem fugiat assumenda eveniet dolorum corrupti. Quaerat eos reiciendis sapiente, sequi laboriosam earum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore delectus quos temporibus alias sapiente fugit sequi molestiae nesciunt! Unde facilis reiciendis excepturi neque est, omnis ex repudiandae quo possimus. Quia.</p>
     </main>
 </body>
