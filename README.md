@@ -1,4 +1,4 @@
-<img src="foto.png" aling="center" width: 400px;>
+![]<img src=”foto.png”>
 
 # html-css
  Curso de HTML5 e CSS3 do Curso em Vídeo
