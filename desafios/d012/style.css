@@ -1,102 +1,65 @@
 @charset "UTF-8";
-@font-face {
-   font-family: 'PassionOne-Black';
-   src: url('fontes/PassionOne-Black.ttf') format('opentype'),
-}
-@font-face {
-    font-family: 'PassionOne-Bold';
-    src: url('fontes/PassionOne-Bold.ttf') format('opentype');
-}
-@font-face {
-    font-family: 'PassionOne-regular';
-    src: url('fontes/PassionOne-Regular.ttf') format('opentype');
-}
-@font-face {
-    font-family: 'Sriracha';
-    src: url('fontes/Sriracha-Regular.ttf') format('opentype');
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-:root {
-    --font-01: 'PassionOne-Black';
-    --font-02: 'PassionOne-Bold';
-    --font-03: 'PassionOne-Regular';
-    --font-04: 'Sriracha';
+html, body {
+    min-height: 100vh;
+    background-color: dark;
 }
-
-* {margin: 0px; padding: 0px;}
 
 header {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: black;
-    width: auto;
-    height: 100px;
-    padding-bottom: 25px;
+    color: white;
+    text-align: center;
 }
 
 header > h1 {
-    font-size: 3em;
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-    font-family: var(--font-02);
-    font-weight: 100;
-}
-header > p {
-    font-size: 1.5em;
-    text-align: center;
-    color: white;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-a {
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
     color: white;
     text-decoration: none;
-}
-a:hover {
     font-weight: bolder;
-    padding: 5px;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
 }
 
-article {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*Espaçamento de altura das palavras*/
+    padding-left: 30px;
+}
+
+section.normal {
     background-color: aqua;
-    padding: 25px 0px 25px 0px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-pre {
-    line-height: 2.5em;
-    font-size: 1.5em;
-    font-family: var(--font-04);
-    text-align: left;
+    color: black;
 }
 
-div.girasol {
+section.imagem {
+    background-color: slategray;
     color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    max-width: 700px;
-    position: relative;
-    height: 500px;
-    background-image: url('imagens/girasol700x800.jpg');
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
-    padding: 15px;
-    padding-bottom: 10px;
-    width: auto;
-    height: 70px;
     background-color: black;
-}
-
-footer > p {
-    padding-top: 10px;
-    text-align: center;
     color: white;
-    font-size: 1.2em;
-    font-family: var(--font-01);
+    text-align: center;
+    padding: 10px;
 }
-
-
