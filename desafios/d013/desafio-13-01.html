@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        table {
+            border-collapse: collapse;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px 48px 10px 48px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de colspan e rowspan na Tabela</h1>
+    <!--(colspan = oculpar colunas) (rowspan = oculpar linhas)-->
+    <br>
+    <table>
+        <tr>
+            <td colspan="2">A01</td> <!--colspan = coluna-->
+            
+            <td>A03</td>
+            <td>A04</td>
+        </tr>
+        <tr>
+            <td rowspan="4">B01</td> <!--rowspan = linha-->
+            <td>B02</td>
+            <td>B03</td>
+            <td>B04</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">C02</td>
+            
+            <td rowspan="2">C04</td>
+        </tr><tr>
+            
+            <td>D02</td>
+            <td>D03</td>
+            
+        </tr>
+        <tr>
+            
+            <td>E02</td>
+            <td>E03</td>
+            <td>E04</td>
+        </tr>
+    </table>
+</body>
+</html>
