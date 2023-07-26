@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .cor01 {
+            background-color: rgba(0, 0, 255, 0.5);
+        }
+
+        .cor02 {
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cor01" span="2"> <!--span = é expandir a coluna-->
+            <col class="cor02" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Wilian Cheiksper</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Matemático</td>
+        </tr>
+        <tr>
+            <td>Cleber Silva</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Front End</td>
+        </tr>
+        <tr>
+            <td>David Silva</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Assitente de Advogado</td>
+        </tr>
+        <tr>
+            <td>Alice de Sá</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Empresária</td>
+        </tr>
+        <tr>
+            <td>Claúdia Cirino</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Empresária</td>
+        </tr>
+    </table>
+</body>
+</html>
