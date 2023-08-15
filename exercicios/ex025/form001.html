@@ -12,10 +12,12 @@
 </head>
 <body>
     <h1>Meu primeiro Formulários</h1>
-    <form>
-        <p>NOME: <input type="text" name="nome" id="nome"></p>
-        <p>SOBRENOME: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">NOME: </label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">SOBRENOME:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p>
+            <input type="submit" value="Enviar"></p>
     </form>
 </body>
 </html>
